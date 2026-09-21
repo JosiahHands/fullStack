@@ -1,6 +1,6 @@
-import { countBasic } from './module.js';
+import { countSlow } from './module.js';
 //------------------------------------------
 const mil = 1000000;
 //--------------------------------------
-countBasic(mil);
-//# sourceMappingURL=basic.js.map
+countSlow(mil, 1000);
+//# sourceMappingURL=slow.js.map

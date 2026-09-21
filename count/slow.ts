@@ -1,5 +1,5 @@
-import {countFancy} from './module.js';
+import {countSlow} from './module.js';
 //------------------------------------------
 const mil: number = 1000000;
 //--------------------------------------
-countFancy(mil)
+countSlow(mil, 1000);

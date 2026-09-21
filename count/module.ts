@@ -15,6 +15,17 @@ export const countBasic = (num: number) => {
     console.log(' ') 
 };
 
+export const countSlow = (num: number, slow: number) => {
+    console.log(' ')
+    console.log('Computers are...');
+    for (let i = 0; i <= num; i++) {
+        for (let it = 0; it <= slow; it++){};
+        console.log(i);
+    };
+    console.log('FAST!!!');
+    console.log(' ') 
+};
+
 // displays the % counted
 export const countFancy = (num: number) => {
     console.log(' ')
