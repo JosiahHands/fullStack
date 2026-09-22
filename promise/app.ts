@@ -19,3 +19,11 @@ const checkBags = checkAvailability('bags', 'Favorite Supply Co.');
 Promise.all([checkSunglasses, checkPants, checkBags]) 
   .then(onFulfill)
   .catch(onReject)
+
+  const resolveWithValue = (func: any, str: string) => {
+  func(str).then((res: string) => {
+    console.log(res)
+  }).catch((e: string) => {
+    console.log(e);
+  })
+}

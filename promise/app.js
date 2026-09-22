@@ -13,4 +13,11 @@ const checkBags = checkAvailability('bags', 'Favorite Supply Co.');
 Promise.all([checkSunglasses, checkPants, checkBags])
     .then(onFulfill)
     .catch(onReject);
+const resolveWithValue = (func, str) => {
+    func(str).then((res) => {
+        console.log(res);
+    }).catch((e) => {
+        console.log(e);
+    });
+};
 //# sourceMappingURL=app.js.map
