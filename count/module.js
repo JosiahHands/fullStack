@@ -5,31 +5,27 @@ const superMil = mil * mil;
 const superBil = bil * bil;
 // displays the number being counted
 export const countBasic = (num) => {
-    console.log(' ');
-    console.log('Computers are...');
     for (let i = 0; i <= num; i++) {
         console.log(i);
     }
     ;
-    console.log('FAST!!!');
+    console.log(' ');
+    console.log('COMPUTERS ARE FAST!!!');
     console.log(' ');
 };
 export const countSlow = (num, slow) => {
-    console.log(' ');
-    console.log('Computers are...');
     for (let i = 0; i <= num; i++) {
         for (let it = 0; it <= slow; it++) { }
         ;
         console.log(i);
     }
     ;
-    console.log('FAST!!!');
+    console.log(' ');
+    console.log('COMPUTERS ARE FAST!!!');
     console.log(' ');
 };
 // displays the % counted
 export const countFancy = (num) => {
-    console.log(' ');
-    console.log('Computers are...');
     for (let i = 0; i <= num; i++) {
         for (let p = 0; p <= 1.01; p += 0.01) {
             let prc = Number((p * num).toFixed());
@@ -42,7 +38,8 @@ export const countFancy = (num) => {
         ;
     }
     ;
-    console.log('FAST!!!');
+    console.log(' ');
+    console.log('COMPUTERS ARE FAST!!!');
     console.log(' ');
 };
 // In this program it counts to your input number and with each count it checks if its equal to a %
